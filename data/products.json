@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tenis Urbano Negro",
+    "precio": 120000,
+    "descripcion": "Disponible en tallas 36 a 43, color negro",
+    "imagen": "img/zapato1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Botas de Cuero",
+    "precio": 180000,
+    "descripcion": "Disponible en tallas 38 a 44, color marrón",
+    "imagen": "img/zapato2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Sandalias Casuales",
+    "precio": 75000,
+    "descripcion": "Disponible en tallas 35 a 42, varios colores",
+    "imagen": "img/zapato3.jpg"
+  }
+]

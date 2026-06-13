@@ -1,5 +1,5 @@
 // Número de WhatsApp (incluye código de país, sin el +, sin espacios ni guiones)
-const numeroWhatsapp = "57XXXXXXXXXX"; // <-- CAMBIA ESTO POR TU NÚMERO
+const numeroWhatsapp = "3126871157"; // <-- CAMBIA ESTO POR TU NÚMERO
 
 // Cargar productos desde el archivo JSON
 fetch('data/products.json')

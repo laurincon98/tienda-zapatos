@@ -3,22 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tienda de Zapatos</title>
+  <title>Tienda de Zapatos | Estilo y Comodidad</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <header>
-    <h1>Tienda de Zapatos</h1>
-    <p>Encuentra el par perfecto para ti</p>
+    <div class="logo">
+      <div class="logo-icono">👟</div>
+      <h1>Zapatos <span>Premium</span></h1>
+    </div>
+    <a class="header-contacto" href="https://wa.me/573001234567" target="_blank">
+      📲 Contáctanos
+    </a>
   </header>
 
-  <main class="contenedor-productos" id="contenedor-productos">
-    <!-- Los productos se cargan automáticamente desde products.json -->
-  </main>
+  <section class="hero">
+    <div class="hero-etiqueta">✨ Colección 2026</div>
+    <h2>El calzado que<br><em>define tu estilo</em></h2>
+    <p>Descubre nuestra selección de zapatos con diseño, calidad y comodidad. Envíanos un mensaje y recibe asesoría personalizada.</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-numero">100+</div>
+        <div class="stat-label">Modelos</div>
+      </div>
+      <div class="stat">
+        <div class="stat-numero">★ 4.9</div>
+        <div class="stat-label">Calificación</div>
+      </div>
+      <div class="stat">
+        <div class="stat-numero">24h</div>
+        <div class="stat-label">Respuesta</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion-catalogo">
+    <div class="seccion-titulo">
+      <h3>Nuestro Catálogo</h3>
+      <p>Selecciona un producto y te asesoramos por WhatsApp</p>
+      <div class="linea-decorativa"></div>
+    </div>
+    <div class="contenedor-productos" id="contenedor-productos">
+      <p style="text-align:center; color:#C4703A; grid-column:1/-1; padding:40px;">Cargando catálogo...</p>
+    </div>
+  </section>
+
+  <section class="banner-contacto">
+    <h3>¿No encontraste lo que buscas?</h3>
+    <p>Escríbenos y te ayudamos a encontrar el par perfecto para ti</p>
+    <a class="btn-banner" href="https://wa.me/573001234567?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20zapatos" target="_blank">
+      💬 Hablar con un asesor
+    </a>
+  </section>
 
   <footer>
-    <p>&copy; 2026 Tienda de Zapatos. Contáctanos por WhatsApp.</p>
+    <p>&copy; 2026 <span>Zapatos Premium</span>. Todos los derechos reservados. | Hecho con ❤️ para nuestros clientes</p>
   </footer>
 
   <script src="js/main.js"></script>
